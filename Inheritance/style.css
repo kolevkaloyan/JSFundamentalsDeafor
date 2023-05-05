@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+#cart {
+  display: flex;
+  align-items: center;
+}
+
+#cart ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#cart h3 {
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+#cart-total {
+  font-weight: bold;
+}
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  margin: 20px 0;
+  font-size: 28px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li {
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+li h2 {
+  font-size: 20px;
+}
+
+li p {
+  margin: 10px 0;
+}
+
+li button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #3e8e41;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+
+.cart-item img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.cart-item p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.cart-item button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-item button:hover {
+  background-color: #c62828;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cart-total p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cart-total button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-total button:hover {
+  background-color: #3e8e41;
+}
