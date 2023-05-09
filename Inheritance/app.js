@@ -74,8 +74,7 @@ class Clothing extends Product {
   set brand(brandName) {
     this.itemBrand = brandName;
   }
-
-  findSize(height, weight) {}
+  
 }
 
 class Book extends Product {
